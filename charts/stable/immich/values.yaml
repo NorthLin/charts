@@ -65,7 +65,6 @@ service:
 persistence:
   mlcache:
     enabled: true
-    type: emptyDir
     targetSelector:
       machinelearning:
         machinelearning:
